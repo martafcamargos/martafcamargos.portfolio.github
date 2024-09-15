@@ -1,0 +1,70 @@
+.introduction {
+  gap: 90px;
+  border-bottom: 2px solid #0D0C0C;
+  box-shadow: 0 7px 5px -5px #0D0C0C;
+  padding-bottom: 70px;
+}
+
+.display-main {
+  width: 1030px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+}
+
+.info-introduction {
+  display: flex; 
+  flex-direction: column;
+  width: 490px; /* Largura da div */
+  gap: 20px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0px;
+  font-size: 33px;
+}
+
+span {
+  background: linear-gradient(45deg, #8E00FF, #FF008A); /* Degradê linear */
+  -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari) */
+  background-clip: text; /* Para outros navegadores modernos */
+  color: transparent; 
+}
+
+.text-int {
+  font-weight: 100;
+  margin-right: 90px;
+  color: rgb(255, 255, 255,0.66);
+}
+
+.style-button {
+  padding: 20px 40px;
+  background: linear-gradient(45deg, #8E00FF, #FF008A);
+  border: none;
+  border-radius: 50px;
+}
+
+.style-button:hover {
+  background: linear-gradient(45deg, #a12fff, #fc2497);
+  box-shadow: 0px 0px 13px rgba(239, 1, 154, 0.66);
+}
+
+.style-button:active {
+  background: #6A6A6A;
+  box-shadow: none;
+}
+
+.style-button a{
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+@media screen {
+  flex-wrap: wrap;
+}

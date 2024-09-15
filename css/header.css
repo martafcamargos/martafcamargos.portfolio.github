@@ -1,0 +1,45 @@
+.display-header {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 60px;
+  justify-content: space-between;
+  place-items: center;
+  border-bottom: 2px solid #0D0C0C;
+  box-shadow: 0 7px 5px -5px #0D0C0C;
+}
+
+.display-header h1{
+  background: linear-gradient(45deg, #8E00FF, #FF008A); /* Degradê linear */
+  -webkit-background-clip: text; /* Para navegadores WebKit (Chrome, Safari) */
+  background-clip: text; /* Para outros navegadores modernos */
+  color: transparent; 
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu ul{
+  padding: 0%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0%;
+}
+
+.header-menu li{
+  padding: 20px 30px;
+  margin: 0%;
+}
+
+.header-menu a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-menu a:hover{
+  text-shadow: 0 0 6px #FF00B3;
+  color: white;
+}

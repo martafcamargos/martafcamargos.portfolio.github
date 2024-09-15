@@ -1,0 +1,7 @@
+.display-body {
+  background-color: #161414;
+  font-family: montserrat;
+  margin: 0%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
